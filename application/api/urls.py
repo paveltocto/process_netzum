@@ -5,7 +5,7 @@ from rest_framework.routers import DefaultRouter
 router = DefaultRouter()
 
 urlpatterns = [
-    url(r'^books/', include('application.api.books.routers')),
+    url(r'^books/', include('api.books.routers')),
 ]
 
 urlpatterns += router.urls

@@ -1,0 +1,48 @@
+[
+  {
+    "pk": 1,
+    "model": "api.Author",
+    "fields": {
+      "name": "author 1"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "api.Author",
+    "fields": {
+      "name": "author 2"
+    }
+  },
+  {
+    "pk": 1,
+    "model": "api.Book",
+    "fields": {
+      "title": "Book 1",
+      "author": 1
+    }
+  },
+  {
+    "pk": 2,
+    "model": "api.Book",
+    "fields": {
+      "title": "Book 2",
+      "author": 1
+    }
+  },
+    {
+    "pk": 3,
+    "model": "api.Book",
+    "fields": {
+      "title": "Book 3",
+      "author": 2
+    }
+  },
+    {
+    "pk": 4,
+    "model": "api.Book",
+    "fields": {
+      "title": "Book 4",
+      "author": 2
+    }
+  }
+]
