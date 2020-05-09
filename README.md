@@ -17,7 +17,7 @@ Para iniciar el proyecto
 ```
 make start 
 ```
-Para verificar que el servicio este levantado: http://localhost:8000
+Para verificar que el servicio este levantado: http://localhost:5000
 ​
 Para detener el proyecto 
 ```
